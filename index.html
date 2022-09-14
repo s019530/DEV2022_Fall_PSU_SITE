@@ -14,16 +14,78 @@
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#activities">Activities</a></li>
-                    <li><a href="#contact">Contct</a></li>
+                    <li><a href="#contact">Contact</a></li>
                   </ul>
             </nav>
             
-          <section id="home" style="height: 100vh;">Home</section>
-          <section id="about" style="height: 100vh;">About</section>
-          <section id="activities" style="height: 100vh;">Activities</section>
-          <section id="contact" style="height: 100vh;">Contact</section>
 
         </header>
+
+        <section id="home" style="height: 100vh;">
+            <div style="display: flex;">
+                <div>
+                    <img src="./imgs/picture of me.JPEG" style="height: 35vh"/>
+                </div>
+
+                <div>
+                    <h1>Hi I'm Jacob</h1>
+                    <h2>I like pineapples and icecream and possible even cookies</h2>
+                </div>
+            </div>
+        </section>
+        <section id="about" style="height: 100vh;">
+            <div style="display: flex;">
+                <div>
+                    <h1>I exist on the planet earth</h1>
+                    <h2>I know it's kinda crazy</h2>
+                    <p>qeqipeqphepqheheuqoheqhepqwhepowqheuqwhepqhwepfho</p>
+                </div>
+
+                <div>
+                    <img src="./imgs/tennis.jpg" style="height: 150; width: 300">
+                    <img src="./imgs/bed.jpg" style="height: 150; width: 300">
+                </div>
+            </div>
+        </section>
+        <section id="activities" style="height: 100vh;">
+            <h1>Activities</h1>
+            <div style="display: flex;">
+                
+                <div>
+                    <img src="./imgs/tennis.jpg" style="height: 150; width: 250">
+                    <h1>Tennis</h1>
+                    <p>i hate tennis</p>
+                </div>
+                <div>
+                    <img src="./imgs/bed.jpg" style="height: 150; width: 250">
+                    <h1>Bed</h1>
+                    <p>I love sleeping</p>
+                </div>
+                <div>
+                    <img src="./imgs/computers.png" style="height: 150; width: 250">
+                    <h1>Computers</h1>
+                    <p>i hate computers</p>
+                </div>
+
+            </div>
+        </section>
+        <section id="contact" style="height: 100vh;">
+            <h1>Contact</h1>
+            <form action="mailto:jsg5727@psu.edu" method="post" enctype="text/plain">
+                <div style="display: flex; flex-direction: column;">
+                    <Label>Name:</Label>
+                    <input type="text" name="your name" placeholder="enter name"> 
+                
+                    <Label>email:</Label>
+                    <input type="email" name="your email" placeholder="enter email"> 
+
+                    <Label>Message:</Label>
+                    <textarea name="your message" cols="50" rows="10" placeholder="message here"></textarea>
+                    <input type="submit">
+                </div>
+            </form>
+        </section>
+
     </body>
 
     <script>
