@@ -5,11 +5,13 @@
         <meta charset="utf-8"/>
         <title>Jacob's Website</title>
         <link rel="stylesheet" href="./style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <header>
             <nav>
+                <a id="title" href="#home">Jacob G</a>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -21,20 +23,18 @@
 
         </header>
 
-        <section id="home" style="height: 100vh;">
-            <div style="display: flex;">
+        <section id="home" class="home" style="height: 100vh;">
                 <div>
-                    <img src="./imgs/picture of me.JPEG" style="height: 35vh"/>
+                    <img src="./imgs/picture of me.JPEG"/>
                 </div>
 
                 <div>
                     <h1>Hi I'm Jacob</h1>
                     <h2>I like pineapples and icecream and possible even cookies</h2>
                 </div>
-            </div>
         </section>
         <section id="about" style="height: 100vh;">
-            <div style="display: flex;">
+            <div>
                 <div>
                     <h1>I exist on the planet earth</h1>
                     <h2>I know it's kinda crazy</h2>
@@ -42,28 +42,28 @@
                 </div>
 
                 <div>
-                    <img src="./imgs/tennis.jpg" style="height: 150; width: 300">
-                    <img src="./imgs/bed.jpg" style="height: 150; width: 300">
+                    <img src="./imgs/tennis.jpg">
+                    <img src="./imgs/bed.jpg">
                 </div>
             </div>
         </section>
         <section id="activities" style="height: 100vh;">
             <h1>Activities</h1>
-            <div style="display: flex;">
+            <div>
                 
                 <div>
-                    <img src="./imgs/tennis.jpg" style="height: 150; width: 250">
-                    <h1>Tennis</h1>
+                    <img src="./imgs/tennis.jpg">
+                    <h2>Tennis</h2>
                     <p>i hate tennis</p>
                 </div>
                 <div>
-                    <img src="./imgs/bed.jpg" style="height: 150; width: 250">
-                    <h1>Bed</h1>
+                    <img src="./imgs/bed.jpg">
+                    <h2>Bed</h2>
                     <p>I love sleeping</p>
                 </div>
                 <div>
-                    <img src="./imgs/computers.png" style="height: 150; width: 250">
-                    <h1>Computers</h1>
+                    <img src="./imgs/computers.png">
+                    <h2>Computers</h2>
                     <p>i hate computers</p>
                 </div>
 
@@ -71,20 +71,21 @@
         </section>
         <section id="contact" style="height: 100vh;">
             <h1>Contact</h1>
+            <div></div>
             <form action="mailto:jsg5727@psu.edu" method="post" enctype="text/plain">
-                <div style="display: flex; flex-direction: column;">
-                    <Label>Name:</Label>
-                    <input type="text" name="your name" placeholder="enter name"> 
+                <Label>Name:</Label>
+                <input type="text" name="your name" placeholder="enter name"> <br>
                 
-                    <Label>email:</Label>
-                    <input type="email" name="your email" placeholder="enter email"> 
+                 <Label>email:</Label>
+                <input type="email" name="your email" placeholder="enter email"> <br>
 
-                    <Label>Message:</Label>
-                    <textarea name="your message" cols="50" rows="10" placeholder="message here"></textarea>
-                    <input type="submit">
-                </div>
+                <Label>Message:</Label>
+                <textarea name="your message" cols="50" rows="10" placeholder="message here"></textarea> <br>
+                <input type="submit"><br>
             </form>
         </section>
+
+        <footer></footer>
 
     </body>
 
